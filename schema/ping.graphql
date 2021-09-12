@@ -1,0 +1,5 @@
+type PingQueryResult {
+    status: String!
+    userId: String
+    timestamp: AWSDateTime!
+}

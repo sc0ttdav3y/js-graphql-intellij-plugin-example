@@ -1,0 +1,7 @@
+type Query {
+    ping(site: String!): PingQueryResult! @aws_auth
+}
+
+schema {
+    query: Query
+}

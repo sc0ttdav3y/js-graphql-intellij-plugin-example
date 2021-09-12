@@ -1,0 +1,15 @@
+{
+  "name": "Test",
+  "includes": ["./schema/*.graphql"],
+  "extensions": {
+    "endpoints": {
+      "blue": {
+        "url": "https://XXXX.appsync-api.ap-southeast-2.amazonaws.com/graphql",
+        "headers": {
+          "Authorization": "XXX"
+        },
+        "introspect": false
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+query {
+    ping(site: "test1") {
+        userId
+    }
+}
